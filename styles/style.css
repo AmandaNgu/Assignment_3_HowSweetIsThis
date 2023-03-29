@@ -1,0 +1,251 @@
+@import url(./reset.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Heebo:wght@600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: radial-gradient(circle, #fffe00, #ffed00, #ffdc00, #ffcb00, #ffbb00, #f8bc00, #f1bc00, #eabd00, #d5ce00, #b7df00, #89ef00, #22ff00);
+    background-size: cover;
+   
+}
+.image-three img {
+    position: absolute;
+    width: 800px;
+    left: 550px;
+    top: 1200px;
+    bottom: 0;
+}
+.image-two img{
+    position: relative;
+    right: 300px;
+    height: 500px;
+    width: 500px;
+    float: left;
+    margin: 30px 0px 60px 30px;
+    animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+   
+
+.image-one img{  
+    position: relative;
+    left: 250px;
+    height: 500px;
+    width: 500px;
+    float: right;
+    margin: 30px 0px 60px 30px;
+    animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+  
+
+
+.main-header-titles h1{
+    font-family: 'Heebo', serif;
+    text-align: center;
+    font-size: 100px;
+    position: relative;
+    bottom: 425px;
+    text-shadow: 1px 1px black;
+    
+}
+.main-header-titles h2{
+    font-family: 'Heebo', serif;
+    font-size: 50px;
+    position:relative; 
+    bottom: 370px;
+    text-shadow: 1px 1px black;
+}
+.main-header-titles p{
+    font-family: 'Bebas Neue', serif;
+    color:white;
+    position: relative;
+    bottom: 250px;
+    font-size: 35px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    letter-spacing: 5px;
+    line-height: 2;
+
+}
+#main-nav {
+    width: 150%;
+    height: 80px;
+    background-color: rgba(243, 36, 36, 0.978);
+    position: relative;
+    right: 320px;
+    font-size: 20px;
+    font-family: 'Bebas Neue', serif;
+    
+}
+
+#main-nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-nav ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-nav ul li p {
+    padding: 1.5em;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+
+}
+
+#main-nav ul li:hover{
+    background-color:rgba(164, 110, 220, 0.575);
+    transition:0.5s;
+}
+
+
+.main-header-titles{
+    height:100%; 
+    color:#fff;
+    text-align: center;
+}
+
+footer {
+    background-color: #fb0505;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    position: relative;
+    top: 200px;
+    right: 325px;
+    height: 300px;
+    width:150%;
+    
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .logo img {
+    height: 150px;
+    width: 250px;
+    float: left;
+    margin: 50px 300px 0px -425px
+  
+
+  }
+  
+  .company-info {
+    flex: 1;
+    padding: 0 30px;
+    color: white;
+    font-size: 25px;
+    position: relative;
+    right: 300px;
+    top: 50px;
+    letter-spacing: 2px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  
+  .contact-form {
+    font-size: 20px;
+    position: relative;
+    left: 100px;
+    flex: 1;
+    padding: 0 30px;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  
+  .contact-form form input,
+  .contact-form form textarea {
+    display: block;
+    width: 200%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    
+  }
+  
+  .contact-form form button {
+    position: relative;
+    left: 90px;
+    display: block;
+    width: 150%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff8c00;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
